@@ -1,10 +1,10 @@
-package guru.springframework.spring5jokesappv2.services;
+package guru.springframework.spring5jokesapp.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;
 
 @Service
-public class JokeServiceImpl implements java.guru.springframework.spring5jokesappv2.services.JokesService {
+public class JokeServiceImpl implements JokesService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
